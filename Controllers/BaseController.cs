@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using static AppWebWithSweetAlert.Models.Enum;
 
 namespace AppWebWithSweetAlert.Controllers
@@ -15,8 +11,6 @@ namespace AppWebWithSweetAlert.Controllers
             //var msg = "<script language='javascript'>Swal.fire({title:'',text: '" + message + "',type:'" + notificationType + "',allowOutsideClick: false,allowEscapeKey: false,allowEnterKey: false})" + "</script>";
             TempData["notification"] = msg;
         }
-
-
 
         /// </summary>
         /// <param name="message">The message to display to the user.</param>

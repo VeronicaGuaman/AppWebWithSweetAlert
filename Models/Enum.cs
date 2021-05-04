@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace AppWebWithSweetAlert.Models
+﻿namespace AppWebWithSweetAlert.Models
 {
     public class Enum
     {
